@@ -1,8 +1,9 @@
 .footer-sec{
-    padding-top:5rem;
+    padding-top:2rem;
 }
 .footer{
   background: #040021;
+  
 }
 
 .footer-main{
@@ -147,7 +148,11 @@
     .footer-main {
         grid-template-columns: 1fr; /* Change to a single column layout for small screens */
     }
+    .ntc{
+        margin-left:1rem;
+    }
 }
+
 
 /* For medium devices (between 577px and 992px) */
 @media only screen and (min-width: 577px) and (max-width: 992px) {
